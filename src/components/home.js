@@ -11,7 +11,9 @@ const Home = () => (
       <h1>Overviewer </h1>
     </div>
     <div style={{ display: "flex", justifyContent: "center" }}>
-      <img src={appStore} style={{ marginTop: "40px", marginBottom: "40px" }}/>
+      <a href="https://itunes.apple.com/app/id1528900395">
+        <img src={appStore} style={{ marginTop: "40px", marginBottom: "40px" }}/>
+      </a>
     </div>
   </div>
 )
