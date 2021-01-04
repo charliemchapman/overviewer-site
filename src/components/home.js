@@ -15,6 +15,11 @@ const Home = () => (
         <img src={appStore} style={{ marginTop: "40px", marginBottom: "40px" }}/>
       </a>
     </div>
+    <div style={{ maxWidth: "600px", marginLeft: "auto", marginRight: "auto" }}>
+      <div className="postYoutube">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fadOMMpQErg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;  picture-in-picture; fullscreen" allowfullscreen></iframe>
+      </div>
+    </div>
   </div>
 )
 
